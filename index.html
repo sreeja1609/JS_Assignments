@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreeja's website</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="navbar" id="tabs">
+        <button class="navbar-toggler" onclick="navbarToggler()">☰</button>
+        <p activetabid="section" id="content-section" class="active"> Sections</p>
+        <p activetabid="dummy" id="content-dummy"> Dummy</p>
+        <p activetabid="mylist" id="content-mylist">List</p>
+        <p activetabid="table" id="content-table">Objects_data</p>
+        <p activetabid="cnt" id="content-cnt">Counter</p>
+        <p activetabid="form" id="content-form"> Form</p>
+    </div>
+
+    <div class="tab-content" id="section">
+        <section class="section1">
+            Our cross-functional teams turn your innovative ideas into reality. 
+            We build magical digital experiences that leave the competition spellbound. 
+            Get ready to pick the fun way to conquer the market!
+        </section>
+        <section class="section2">
+            Our cross-functional teams turn your innovative ideas into reality. 
+            We build magical digital experiences that leave the competition spellbound. 
+            Get ready to pick the fun way to conquer the market!
+        </section>
+        <section class="section3">
+            Our cross-functional teams turn your innovative ideas into reality. 
+            We build magical digital experiences that leave the competition spellbound. 
+            Get ready to pick the fun way to conquer the market!
+        </section>
+    </div>
+
+    <div class="tab-content" id="dummy">
+        <section class="section1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Integer sit amet felis eu tortor finibus feugiat eu vitae sapien. 
+            Nulla id odio maximus, egestas urna et, dignissim augue. 
+            Nulla consequat arcu nec odio dapibus, et mollis purus vestibulum. 
+            In dignissim, arcu a gravida finibus
+        </section>
+    </div>
+
+    <div class="tab-content" id="mylist">
+        <div id="list">
+
+        </div>
+    </div>
+
+    <div class="tab-content" id="table">
+
+    </div>
+
+    <div class="tab-content" id="cnt">
+        <div>
+            <h1 class="heading">Welcome to My Counter!</h1>
+            <div class="count">
+                <h2 id="cnt1">0</h2>
+                <button id="button1">start</button>
+                <button id="button2">pause</button>
+                <button id="button3">resume</button>
+                <button id="button4">stop</button>
+            </div>
+        </div>
+    </div>
+
+    <form class="tab-content" id="form">
+        <div class="tab">
+            <div class="input-container">
+                <label>Name: </label>
+                <input id="name" type="text" name="name" autocomplete="off">
+            </div>
+            <div class="input-container">
+                <label>password: </label>
+                <input id="password" type="password" name="password">
+            </div>
+            <div class="input-container">
+                <label>email: </label>
+                <input id="email" type="email" name="email">
+            </div>
+            <button>Submit</button>
+        </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
